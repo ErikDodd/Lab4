@@ -1,13 +1,53 @@
 main {
     width: 960px;
     margin: 20px auto;
-}
+} 
 
 header {
-    border-bottom: 3px black;
+    border-bottom: 5px green;
+    font-size: 30px;
 }
 
 h1 {
     size: 100px;
     color: green;
+}
+
+h2 {
+    size: 75px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    font-size: 25px;
+    padding: 10px;
+    margin: 50px;
+}
+
+nav ul {
+  padding: 10px;  
+  margin: 0 20px;
+}
+
+.hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+ section {
+    display: inline-block;
+    width: 25%;
+    padding: 30px;
+}
+
+.cardimage {
+    width: 100%;
 }
