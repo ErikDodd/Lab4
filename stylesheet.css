@@ -6,6 +6,7 @@ main {
 header {
     border-bottom: 5px green;
     font-size: 30px;
+    background-color: lightskyblue;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
 }
 
 h2 {
-    size: 75px;
+    size: 90px;
     text-align: center;
 }
 
@@ -50,4 +51,9 @@ nav ul {
 
 .cardimage {
     width: 100%;
+}
+
+footer {
+    background-color: lightskyblue;
+    height: 80px;
 }
