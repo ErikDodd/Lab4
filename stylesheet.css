@@ -1,0 +1,13 @@
+main {
+    width: 960px;
+    margin: 20px auto;
+}
+
+header {
+    border-bottom: 3px black;
+}
+
+h1 {
+    size: 100px;
+    color: green;
+}
