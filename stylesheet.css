@@ -53,6 +53,10 @@ nav ul {
     width: 100%;
 }
 
+div {
+    background-color: green;
+}
+
 footer {
     background-color: lightskyblue;
     height: 80px;
