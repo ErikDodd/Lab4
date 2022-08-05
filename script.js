@@ -21,5 +21,20 @@ function yourActivities() {
         text = "No worries! We can still help you!";
     }    
 }
+
+function askQuestion(){
+    let response = prompt('Do you like Seattle?');
+    
+    if (response.toLowerCase() === 'no'){
+    alert('That’s wrong!');
+    }
+    else if (response.toLowerCase() === 'yes') {
+    alert('That’s Awesome!');    
+    }
+    else if (response.toLowerCase() !== 'yes' || 'no' ){
+    alert('Please enter another command');
+    } 
+    }
 yourName();
 yourActivities();
+askQuestion();
