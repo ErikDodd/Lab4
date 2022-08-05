@@ -23,8 +23,7 @@ function yourActivities() {
 }
 
 function askQuestion(){
-    let response = prompt('Do you like Seattle?');
-    
+    let response = prompt('Do you like Seattle?'); 
     if (response.toLowerCase() === 'no'){
     alert('That’s wrong!');
     }
